@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bungee+Inline&family=Monoton&family=Mukta:wght@300&family=Mulish:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: lime;
+}
+
+.img-principal {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   height: 280px;
+}
+
+.logo-cabecalho{
+    height: 72px;
+}
+
+.imagem-lista-1 {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navegacao {
+    display: flex;
+    gap: 20px;
+}
+
+.navegacao-item{
+   font-size: 18px;
+   font-family: 'Arvo', serif;
+   font-weight: bolder;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.4px solid black;
+
+}
+
+.conteudo-principal-titulo {
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: white;
+}
+
+.conteudo-secundario {
+   display: block;
+   text-align: center;
+}
+
+.cont-secund-titulo {
+    font-family: 'Arvo', serif;
+}
+
+.cont-secund-paragrafo {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+}
+
+.lista-item {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.rodape {
+   border-top: 0.4px solid black;
+   text-align: center;
+   font-family: 'Arvo', serif;
+   background-color: lime;
+   font-weight: bolder;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+  /* Create two equal columns that sits next to each other */
+.column {
+    flex: 20%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.servico-descricao {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+}
+
+.form-contato, input {
+    width: 350px;
+	margin: 0 auto;
+    border: 2px solid green;
+}
+
+input {
+    width: 280px;
+	margin: 0 auto;
+    border: 1px solid black;
+}
+
+textarea {
+    width: 340px;
+    height: 250px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+label {
+    text-align: center;
+    font-family: 'Mulish', serif;
+    font-weight: bolder;
+}
+
+.contato-titulo {
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+.institucional-titulo {
+    text-align: center;
+    font-family: 'Arvo',serif;
+}
+
+button {
+    padding: 4%;
+    border-radius: 0.5em;
+}
+
+.servico-descricao-special {
+    text-align: center;
+    font-family: 'Mulish', serif;
+    font-weight: bolder;
+}
+
+.inst-titulo {
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+}
+
+.inst-item {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.mapa-imagem {
+   width: 390px;
+   width: 390px;
+}
+
+.mapa-titulo {
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.rede-social-texto {
+    text-align: center;
+    font-family: 'Mulish', serif;
+    font-weight: bolder;
+}
+
+.social{
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
