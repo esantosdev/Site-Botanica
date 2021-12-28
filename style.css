@@ -47,6 +47,7 @@ body{
    font-size: 18px;
    font-family: 'Arvo', serif;
    font-weight: bolder;
+   color: black !important;	
 }
 
 .conteudo-principal {
