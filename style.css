@@ -43,7 +43,7 @@ body{
     gap: 20px;
 }
 
-.navegacao-item{
+#navegacao-item{
    font-size: 18px;
    font-family: 'Arvo', serif;
    font-weight: bolder;
